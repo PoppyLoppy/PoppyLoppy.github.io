@@ -1,0 +1,30 @@
+svg {
+  border: 1px solid #dddddd;
+}
+
+polygon {
+stroke-width:gold;
+stroke-width:5;
+stroke-opacity:0.7;
+}
+let oval = document.querlySelector('.oval');
+let number = document.querlySelector('.number');
+let counter = 0;
+oval.onclick = function() {
+    counter++;
+    number.textContent = counter;
+}
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <button class="oval">
+        <span class="number"></span>
+    </button>
+    <script src="click.js"></script>
+</body>
+
+</html>
